@@ -4,7 +4,7 @@
   "description": "API for MeLi challenge",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon dist/server.js",
+    "start": "nodemon ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "dev": "nodemon ./src/index.ts"
